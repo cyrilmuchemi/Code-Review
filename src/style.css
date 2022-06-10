@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.932);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.fa-sync-alt {
+  position: absolute;
+  margin-left: 220px;
+}
+
+.form {
+  position: absolute;
+  top: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  background-color: azure;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.fa-ellipsis-v {
+  padding: 16px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.ellipse-disable {
+  display: none;
+}
+
+.fa-trash {
+  display: none;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.trash-active {
+  display: block;
+}
+
+.completedList {
+  text-decoration: line-through;
+}
+
+.checkedHolder {
+  background-color: rgb(230, 218, 218);
+}
+
+.task-description {
+  width: 84%;
+}
+
+span {
+  padding: 16px 0;
+  outline: none;
+}
+
+.clearbutton {
+  border: none;
+  cursor: pointer;
+  margin-left: 100px;
+  color: gray;
+  background-color: azure;
+  font-size: 16px;
+  padding: 16px;
+  text-decoration: underline;
+}
+
+.clearbutton:hover {
+  color: black;
+}
+
+.focused {
+  background-color: bisque;
+}
+
+input[type="checkbox" i] {
+  height: 16px;
+  width: 16px;
+  margin: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 2px solid #c1c1c3;
+  appearance: none;
+}
+
+input:checked {
+  background-image: url(./images/bigtick.svg);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
